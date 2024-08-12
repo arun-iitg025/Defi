@@ -1,0 +1,87 @@
+@media screen and (min-width: 200px) and (max-width: 700px) {
+  .wrapper {
+    max-width: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    align-items: center
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: rgb(6,29, 59); */
+  background-color: black;
+}
+
+.gradient-bg-welcome {
+  background-color: black;
+  background-image: 
+ /*👉   radial-gradient(at 0% 0%, rgb(10, 15, 22) 0, transparent 50%), 
+    radial-gradient(at 10% 0%, rgb(6, 49, 59) 0, transparent 50%), 
+    radial-gradient(at 100% 8%, rgb(24, 66, 80) 0, transparent 50%);👈*/
+      black;
+}
+
+.gradient-bg-services {
+  background-color:black;
+  background-image: 
+   /*👉 radial-gradient(at 95% 100%, rgb(6, 49, 59) 0, transparent 60%),
+    radial-gradient(at 100% 50%, rgb(21, 20, 15) 0, transparent 50%);👈*/
+    black;
+    
+
+}
+
+.gradient-bg-transactions {
+  background-color: black;
+  background-image: 
+    /* radial-gradient(at 0% 100%, rgb(21, 20, 15) 0, transparent 50%),  */
+    black;
+}
+
+.gradient-bg-footer {
+  background-color: black;
+  background-image: 
+    black;
+}
+
+.blue-glassmorphism {
+  background: rgb(39, 51, 89, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* white glassmorphism */
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.text-gradient {
+  background-color: #a39d9df2;
+  background-image: radial-gradient(at 4% 36%, rgba(255, 255, 255, 0.294) 0, transparent 53%), radial-gradient(at 100% 60%, rgb(69, 69, 69) 0, transparent 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
